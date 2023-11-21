@@ -3,7 +3,7 @@ Hey,
 You can consider my team "PoeScience" as disqualified. I can see what I have to do, I can see how I can likely do it. But health issues prevent me from actually doing it.
 
 What I would have done is:
-1. Use the dependency table guides here to retrieve data for the relevant PsrTypes for each country. Get data from 1st of  January 2022 to 1st of January 2023, maybe get it as XML viles via Postman, since the range is realised/fixed already. or via the API directly. https://transparency.entsoe.eu/content/static_content/download?path=/Static%20content/web%20api/RestfulAPI_IG.pdf For example the data could be retrieved using the link: https://web-api.tp.entsoe.eu/api?securityToken=fb81432a-3853-4c30-a105-117c86a433ca&documentType=A75&processType=A16&in_Domain=10YCZ-CEPS-----N&periodStart=202212312300&periodEnd=202301012300 or similar.
+1. Use the dependency table guides here to retrieve data for the relevant PsrTypes for each country. Get data from 1st of  January 2022 to 1st of January 2023, maybe get it as XML viles via Postman, since the range is realised/fixed already. or via the API directly. https://transparency.entsoe.eu/content/static_content/download?path=/Static%20content/web%20api/RestfulAPI_IG.pdf For example the data could be retrieved using the link: https://web-api.tp.entsoe.eu/api?securityToken=MYTOKEN&documentType=A75&processType=A16&in_Domain=10YCZ-CEPS-----N&periodStart=202212312300&periodEnd=202301012300 or similar.
 
 2. Standardize the data so each data type has 1 hour intervals. Where data is missing use the average between the two surrounding nearest dates or a similar mitigation strategy.
 
